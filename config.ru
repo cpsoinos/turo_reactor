@@ -1,2 +1,2 @@
 require './app'
-run ruby app.rb
+run app.rb
