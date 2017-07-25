@@ -2,5 +2,4 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'rest-client'
-gem 'JSON'
-gem 'dotenv/load'
+gem 'dotenv'
