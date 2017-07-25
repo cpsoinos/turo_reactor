@@ -3,8 +3,8 @@ require 'rest-client'
 require 'JSON'
 require 'dotenv/load'
 
-post '/:command' do
-  send_command_to_vehicle(params[:command])
+post '/disarm' do
+  send_command_to_vehicle('disarm')
 end
 
 def session_id
